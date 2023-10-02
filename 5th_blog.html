@@ -11,6 +11,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"> <!-- Add your custom CSS file for premium styling -->
+    <!-- Font family for Quoted Statement -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 
     <style>
         .special-link:hover {
@@ -71,6 +75,30 @@
         .share-icons a:hover {
             color: #007bff;
         }
+
+        .quote-container {
+            border-top: 1px solid #7CB9E8;
+            border-bottom: 1px solid #7CB9E8;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            /* Align the quote in the center */
+            position: relative;
+            /* Add relative positioning to enable absolute positioning */
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+        }
+
+        .author {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+        }
+        br {
+  margin-bottom: 20px; /* Adjust the value as needed for your desired spacing */
+}
     </style>
     <title>Why Sustainable Energy Sources Are Vital for Our Future</title>
 </head>
@@ -80,8 +108,9 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand ml-3" href="index.html">GeoCoderX</a>
-                <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -145,45 +174,41 @@
         <div class="container my-5">
             <div class="row">
                 <div class="col-lg-8">
-                    <img src="https://previews.123rf.com/images/amisb/amisb1901/amisb190100141/125842275-design-concept-of-word-geography-website-banner.jpg"
-                        class="img-fluid rounded mb-4" alt="GIS">
-                    <h2>Geography: More Than Maps</h2>
-                    <p><b>Geography</b> is the art of unraveling stories woven into the fabric of Earth. It's about more
-                        than just memorizing state capitals or identifying mountain ranges; it's about understanding the
-                        dynamic relationship between people and the environment. Through geography, we uncover the
-                        secrets of diverse cultures, ecosystems, and the forces that mold our planet.</p>
-
-                    <!-- More content here -->
-
-                    <h2>Mapping Our Planet's Diversity</h2>
-                    <p>Geography is a tapestry woven from the threads of various disciplines. Here's a glimpse into its
-                        diverse branches:</p>
-                    <h3>Physical Geography</h3>
-                    <p>Delving into the natural world, physical geography studies Earth's landforms, climates, and
-                        ecosystems. It's the realm where mountains rise, rivers flow, and ecosystems thrive in
-                        harmonious complexity.</p>
-                    <h3>Human Geography</h3>
-                    <p>Human geography explores the intricate dance between societies and their surroundings. It
-                        examines urban landscapes, migration patterns, and the cultural narratives that shape the human
-                        experience.</p>
-                    <h3>Geographical Information Systems (GIS)</h3>
-                    <p>GIS is the bridge between geography and technology. Through the power of data and spatial
-                        analysis, it helps us create interactive maps, assess urban development, and track environmental
-                        changes over time.</p>
-                    <h2>Unveiling the Insights</h2>
-                    <p><i>Geography is a treasure trove of insights waiting to be discovered:</i></p>
-                    <h3>Cultural Understanding</h3>
-                    <p>Through geography, we learn to appreciate the rich tapestry of cultures around the world. It
-                        bridges gaps and fosters empathy, offering a broader perspective on the interconnectedness of
-                        humanity.</p>
-                    <h3>Environmental Awareness</h3>
-                    <p>From melting glaciers to shifting coastlines, geography highlights the impacts of human actions
-                        on the environment. It urges us to be stewards of the Earth and champions of sustainable
-                        practices.</p>
-                    <h3>Spatial Problem-Solving</h3>
-                    <p>Geography equips us with tools to tackle complex challenges. Whether it's optimizing urban spaces
-                        or predicting natural disasters, spatial thinking guides solutions that benefit society and
-                        nature.</p>
+                    <img src="Sustainable Energy.jpg" class="img-fluid rounded mb-4" alt="GIS">
+                    <p>
+                        In our modern world, the demand for energy continues to soar. However, the way we produce energy
+                        plays a pivotal role in shaping our future. Sustainable energy sources have emerged as the key
+                        to a cleaner and greener world. In this article, we'll delve into why sustainable energy is so
+                        crucial, using examples from different countries to illustrate its significance. <br>
+                        Think about our reliance on fossil fuels like coal, oil, and gas. These resources are finite and
+                        contribute to pollution and global warming when burned. Sustainable energy, in contrast, offers
+                        an endless supply of clean power. It doesn't deplete our resources or harm our environment. <br>
+                        As Albert Einstein once wisely stated,
+                    <div class="quote-container">
+                        <p><b><i>"We can't solve problems by using the same kind of thinking we used when we created
+                                    them."</i></b> </p>
+                        <span class="author"><b>- Albert Einstein</b></span>
+                    </div>
+                    This quote resonates with the need for a shift in our energy paradigm. Fossil fuels got us into this
+                    environmental mess, and it's sustainable energy that can lead us out of it.
+                    <br>
+                    Sustainable energy is a powerful tool in our fight against climate change. Burning fossil fuels
+                    releases greenhouse gases, trapping heat and causing a rise in global temperatures. This leads to
+                    ice melting, extreme weather events, and other environmental challenges. Sustainable energy sources
+                    produce little to no harmful emissions, helping to keep our planet cool and stable.
+                    <br>
+                    Sustainable energy diversifies our energy sources, enhancing security. Think of it as having
+                    multiple backup plans. If one source falters, others are ready to step in. Countries that invest in
+                    sustainable energy reduce their dependence on imported fossil fuels, making their energy supply more
+                    stable and self-reliant.
+                    <br>
+                    The adoption of sustainable energy isn't just an environmental win; it's an economic one too. As
+                    technology advances and economies of scale are achieved, the cost of renewable energy generation
+                    decreases. This not only makes sustainable energy more affordable but also creates job opportunities
+                    in sectors like solar and wind power.
+                    <br>
+                    </p>                  
+                    <!-- More content here -->                 
                 </div>
                 <!-- Sidebar with About and Author sections -->
                 <div class="col-lg-4">
@@ -196,7 +221,7 @@
                     </div>
 
                     <div class="author-section bg-light p-4 mb-4">
-                        <img src="Asad.jpg" class="img-fluid rounded-circle mb-3" alt="Author">
+                        <img src="Fizza Image.jpeg" class="img-fluid rounded-circle mb-3" alt="Author">
                         <h4>Author: Asad Maqsoom</h4>
                         <p class="text-muted">Geospatial Analyst with expertise in GIS, remote sensing, and cartography.
                             Master's
